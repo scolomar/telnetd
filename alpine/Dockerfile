@@ -1,7 +1,7 @@
 FROM alpine
 
 ARG ADDR=0.0.0.0
-ARG LOGIN=/bin/sh
+ARG LOGIN=/bin/login
 ARG PORT=23
 ARG USER=user
 
