@@ -5,7 +5,7 @@ ARG LOGIN=/bin/login
 ARG PORT=23
 ARG USER=user
 
-ENV CMD "/usr/sbin/telnetd -p $PORT -b $ADDR -l $LOGIN -F"
+ENV CMD "/usr/sbin/telnetd -p $PORT -b $ADDR -l /bin/sh -F"
 
 EXPOSE $PORT
 
